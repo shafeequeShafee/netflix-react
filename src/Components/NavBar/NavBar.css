@@ -1,0 +1,31 @@
+.custom-navbar{
+    width: 100%;
+    
+}
+.navbar-section .img-logo{
+    height: 30px;
+}
+
+.navbar-section .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-section .nav-link{
+   color: rgb(184, 184, 184);
+}
+.navbar-section .bg-nav-color{
+    background-color: #000;
+}
+.navbar-section .nav-btn-icon{
+    outline: 0;
+    border: none;
+    background: transparent;
+}
+.navbar-section .nav-icon-color{
+  color: #fff;
+}
+.navbar-section .nav-link:focus, .nav-link:hover {
+    color: rgb(184, 184, 184) !important;
+}
+
+
+

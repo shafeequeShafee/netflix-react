@@ -1,0 +1,21 @@
+.section-login{
+    color: white !important;
+    display: flex;
+    height: 250px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    border: 2px solid white;
+    border-radius: 10px;
+
+
+}
+.logo-part{
+    background-color: rgb(28, 201, 253);
+    width: 250px;
+
+}
+.login-part{
+    background-color: rgb(192, 214, 240);
+    width: 250px;
+}
