@@ -52,7 +52,7 @@ function RowPoster(props) {
                 filim.map((fil)=>{
                     return ( 
                       
-                        <img onClick={()=>handleMovie(fil.id)} className={props.isSmall ? 'small-poster' : 'poster'} key={fil.title} src={`${imageUrl+fil.backdrop_path}`} alt='filim poster'/>             
+                        <img onClick={()=>handleMovie(fil.id)} className={props.isSmall ? 'small-poster' : 'poster'} key={fil.id} src={`${imageUrl+fil.backdrop_path}`} alt='filim poster'/>             
                     )
                 })           
             }  
